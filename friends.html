@@ -38,16 +38,19 @@
     </a>
 
     <main class="friends-screen">
-        <div class="user-component">
+        <!-- 본인 프로필 -->
+        <div class="user-component" id="friends-screen__self-profile">
             <div class="user-component__column">
-                <img class="user-component__avatar user-component__avatar--xl" src="https://lh3.googleusercontent.com/0crk18Br3_fGcRBe3FTDZ9jfp63hBT1N4_RZT6cRn7XuwuDAQYcOPLwhx94dG3EpaM4RE8A9BQUZNTL71ZSNtHDZ9BVyzuBtOGrOTSbsV8-YIaTJP8AOMoiar8vMIjiG-nGSHEXTSsIWFnR4nAXilsoLJzXCjJ_3gRB6C2MZ9MMDjR_5NnVb5K-KDyHctfSaeb0beLFy1PsAP7kP5cpWcsksv7hwwq-ryUIMoyD2j9lGJbP4nmnUbomnUHRB6rvHSbo4IFC1q1kf5b0W1WdfFU5bK-aJWAs8Qz7JBXhZ-VQoL1j28Uplkzi1PLsQhv6UIwNwLuBHIRjyDzPTvGWG6W-6PEApy_fhrcpsCSCfsbZWGcBCMdqx5tjm2NQY81eQlXbGiQ9EArvLZraundP-6Rq3Bmbv5MszBhQJOAEaAdcbW9b56K-XrHiOefqp-8RhLozLxUNwHDFwr5PoHRCR3a_TzsB2QdRM9qvec5R-0FaEB_rkKqEmOPSE2NxGyXUNUMfFsORSTGdJG8uue7Oanw4VsN1wlYqArN7oHu8aLv2Jns3cXKKVpllU4qudkO2xuAuWUKfvi5IlgBt1W7FIDSjRc4KlQ7lAnQsHtYPfIuYctw-l8I0j4INqql3xQ6qeOzkjAbRW_wNOj7BwcqU2eoVGv1GkHf2iFwfFd5oLX2mQokETUowfAfKkbmYGuVwDfSv_0O9mOnjNXHNGyRe71w=s919-no?authuser=0" />
+                <img class="user-component__avatar user-component__avatar--xl" src="https://scontent-ssn1-1.xx.fbcdn.net/v/t1.6435-9/30703952_157822888222883_7602016346401931264_n.png?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=VLSIjeqtEPMAX_K1l6M&_nc_ht=scontent-ssn1-1.xx&oh=00_AT-qs2yl-YAtiIFo7i5YAL5cfFNLPWkqQxcdQ1igwgrPGQ&oe=622A71ED" />
                 <div class="user-component__text">
-                    <h4 class="user-component__title">허우진</h4>
-                    <!-- <h6 class="user-component__subtitle">상태 메시지</h6> -->
+                    <h4 class="user-component__title">김양운</h4>
+                    <h6 class="user-component__subtitle">데이터랩 화이팅!!!</h6>
                 </div>
             </div>    
             <div class="user-component__column"></div>
         </div>
+
+        <!--채널-->
         <div class="friends-screen__channel">
             <div class="friends-screen__channel-header">
                 <span>Channel</span>
@@ -61,9 +64,67 @@
                     </div>
                 </div>    
                 <div class="user-component__column">
-                    <span>2</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
+                    <div>
+                        <span>2</span>
+                        <i class="fas fa-chevron-right fa-xs"></i>
+                    </div>
                 </div>
+            </div>
+        </div>
+        
+         <!--친구 목록-->
+        <div class="friends-screen__friends">
+            <div class="friends-screen__friends-header">
+                <span>Friends</span>
+                <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+
+            <!--이지은-->
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__avatar user-component__avatar--sm" src="http://www.newsinside.kr/news/photo/202110/1119485_797392_2214.jpg" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">이지은</h4>
+                        <h6 class="user-component__subtitle">데이터랩 동아리 추가모집 신청은</h6>
+                    </div>
+                </div>    
+                <div class="user-component__column"></div>
+            </div>
+
+            <!--한소희-->
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__avatar user-component__avatar--sm" src="https://blog.kakaocdn.net/dn/ekWihO/btqC1HX0H3J/LHzRdNeglmSgcv937zbql1/img.jpg" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">한소희</h4>
+                        <h6 class="user-component__subtitle">010 9543 5350으로</h6>
+                    </div>
+                </div>    
+                <div class="user-component__column"></div>
+            </div>
+
+            <!--김태형-->
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__avatar user-component__avatar--sm" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEwMTZfMjQw%2FMDAxNjM0MzkyNzMxOTYy.00AERlc_MtMHVMChO3ffoyQX3LDa6Pkz_B7TFC6x1D4g.IKuqr8EeuqhFBphW4T4ykA3tkxSGbyKLlmnG7HUloZUg.JPEG.ysyangel59%2FV_PANN_KPOP11.jpeg&type=sc960_832" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">김태형</h4>
+                        <h6 class="user-component__subtitle user-component__subtitle-sm">'학번 이름 신청합니다' 문자 보내주세요!!</h6>
+                    </div>
+                </div>    
+                <div class="user-component__column"></div>
+            </div>
+
+            <!--이도현-->
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img class="user-component__avatar user-component__avatar--sm" src="http://img.sbs.co.kr/newsnet/etv/upload/2020/11/02/30000655050.jpg" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">이도현</h4>
+                        <h6 class="user-component__subtitle">질문도 편하게 해주세요!!!</h6>
+                    </div>
+                </div>    
+                <div class="user-component__column"></div>
             </div>
         </div>
     </main>
@@ -76,18 +137,18 @@
                 </a>
             </li>
             <li class="nav__btn">
-                <a class="nav__link" href="#">
-                    <span class="nav__notification">1</span>
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
                     <i class="far fa-comment fa-2x "></i>
                 </a>
             </li>
             <li class="nav__btn">
-                <a class="nav__link" href="#">
+                <a class="nav__link" href="find.html">
                     <i class="fas fa-search fa-2x "></i>
                 </a>
             </li>
             <li class="nav__btn">
-                <a class="nav__link" href="#">
+                <a class="nav__link" href="more.html">
                     <div class="nav__dot"></div>
                     <i class="fas fa-ellipsis-h fa-2x "></i>
                 </a>

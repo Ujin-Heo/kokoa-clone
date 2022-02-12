@@ -4,7 +4,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--horizantal-space);
+  padding: var(--horizontal-space);
+  position: fixed;
+  top: 26px;
+  background-color: white;
 }
 
 .screen-header__title {
