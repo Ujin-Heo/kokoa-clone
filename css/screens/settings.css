@@ -1,0 +1,28 @@
+.settings {
+  margin-top: -82px;
+}
+
+.settings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings-header__icon {
+  padding: 0px 15px;
+}
+
+.settings-header__title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.settings-screen {
+  margin-top: 30px;
+}
+
+.settings-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
